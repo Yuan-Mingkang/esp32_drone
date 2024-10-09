@@ -1,0 +1,36 @@
+{
+    "C_Cpp.intelliSenseEngine": "default",
+    "idf.adapterTargetName": "esp32",
+    "idf.customExtraPaths": "/home/jcfh/.espressif/tools/xtensa-esp-elf-gdb/14.2_20240403/xtensa-esp-elf-gdb/bin:/home/jcfh/.espressif/tools/riscv32-esp-elf-gdb/14.2_20240403/riscv32-esp-elf-gdb/bin:/home/jcfh/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/bin:/home/jcfh/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20230928/riscv32-esp-elf/bin:/home/jcfh/.espressif/tools/esp32ulp-elf/2.35_20220830/esp32ulp-elf/bin:/home/jcfh/.espressif/tools/openocd-esp32/v0.12.0-esp32-20240318/openocd-esp32/bin:/home/jcfh/.espressif/tools/esp-rom-elfs/20230320",
+    "idf.customExtraVars": {
+        "OPENOCD_SCRIPTS": "/home/jcfh/.espressif/tools/openocd-esp32/v0.12.0-esp32-20240318/openocd-esp32/share/openocd/scripts",
+        "ESP_ROM_ELF_DIR": "/home/jcfh/.espressif/tools/esp-rom-elfs/20230320/"
+    },
+    "idf.espIdfPath": "/home/jcfh/esp/v5.2.2/esp-idf",
+    "idf.openOcdConfigs": [
+        "board/esp32-wrover-kit-3.3v.cfg"
+    ],
+    "idf.port": "/dev/ttyUSB0",
+    "idf.pythonBinPath": "/home/jcfh/.espressif/python_env/idf5.2_py3.10_env/bin/python",
+    "idf.toolsPath": "/home/jcfh/.espressif",
+    "idf.flashType": "UART",
+    "files.associations": {
+        "array": "c",
+        "bitset": "c",
+        "string_view": "c",
+        "format": "c",
+        "initializer_list": "c",
+        "span": "c",
+        "regex": "c",
+        "stdio.h": "c",
+        "err.h": "c",
+        "udp.h": "c",
+        "string.h": "c",
+        "mahony.h": "c",
+        "pwm.h": "c",
+        "queue.h": "c",
+        "pid.h": "c",
+        "ledc.h": "c",
+        "mpu6050.h": "c"
+    }
+}
